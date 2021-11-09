@@ -1,0 +1,4 @@
+(defun diff (x y)				 			 
+            (cond ((eq x y) nil) (t t)))
+
+(diff 1 t)
